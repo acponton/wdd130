@@ -4,13 +4,15 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 @import url('https://fonts.googleapis.com/css?family=Amarante');
 
+
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396e94   ;
-  --secondary-color: #e7c24f ;
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
   --accent1-color: #a43312;
   --accent2-color: #381d2a;
   --accent3-color: #aabd8c;
+
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Sofia";
@@ -26,6 +28,7 @@ Fonts are separated by a | */
   --nav-background-color: #e7c24f;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
+}
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -40,8 +43,9 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  padding: 0.2in;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7, h8 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
@@ -65,7 +69,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
