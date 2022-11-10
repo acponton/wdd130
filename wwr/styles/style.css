@@ -186,9 +186,13 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
-main {
+/* main {
     display: grid;
     grid-template-columns: 10, 1fr;
+} */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
